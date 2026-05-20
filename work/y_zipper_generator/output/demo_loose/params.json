@@ -1,0 +1,121 @@
+{
+  "teeth": 8,
+  "pitch": 5.0,
+  "strip_width": 16.0,
+  "margin": 5.0,
+  "strip_thickness": 0.7,
+  "rib_radius": 0.75,
+  "rib_y": 1.25,
+  "bead_radius": 1.05,
+  "bead_segment": null,
+  "clip_clearance": 0.55,
+  "clip_wall": 0.85,
+  "snap_lip": false,
+  "sections": 18,
+  "plate_spacing": 8.0,
+  "slider_clearance": 0.6,
+  "slider_length": 42.0,
+  "slider_plate_thickness": 2.2,
+  "slider_wall_thickness": 2.0,
+  "slider_wall_height": 6.5,
+  "triangular_tube_size": null,
+  "strip_length": 50.0,
+  "tooth_height": 1.5,
+  "tube_side": 16.0,
+  "note": "Experimental Y-zipper-inspired generator, not the official MIT/CSAIL geometry. Tune clearances for your printer/material.",
+  "part": "all",
+  "generated": [
+    {
+      "vertices": 944,
+      "faces": 1656,
+      "finite": true,
+      "watertight": true,
+      "volume": 1143.49977093401,
+      "bounds_min": [
+        -10.258,
+        0.0,
+        -0.004
+      ],
+      "bounds_max": [
+        11.71,
+        50.0,
+        5.05
+      ],
+      "extents": [
+        21.968,
+        50.0,
+        5.054
+      ],
+      "file": "output/demo_loose/strip_teeth8_pitch5_clearance055.stl"
+    },
+    {
+      "vertices": 2832,
+      "faces": 4968,
+      "finite": true,
+      "watertight": true,
+      "volume": 3430.499312802031,
+      "bounds_min": [
+        -40.225,
+        0.0,
+        -0.004
+      ],
+      "bounds_max": [
+        41.678,
+        50.0,
+        5.05
+      ],
+      "extents": [
+        81.903,
+        50.0,
+        5.054
+      ],
+      "file": "output/demo_loose/strips3_teeth8_pitch5_clearance055.stl"
+    },
+    {
+      "vertices": 318,
+      "faces": 540,
+      "finite": true,
+      "watertight": true,
+      "volume": 11829.132493953917,
+      "bounds_min": [
+        -50.254,
+        -35.815,
+        0.0
+      ],
+      "bounds_max": [
+        50.254,
+        51.575,
+        8.7
+      ],
+      "extents": [
+        100.508,
+        87.39,
+        8.7
+      ],
+      "file": "output/demo_loose/slider_clearance060_len42.stl"
+    },
+    {
+      "vertices": 1128,
+      "faces": 2052,
+      "finite": true,
+      "watertight": true,
+      "volume": -2424.2401743141504,
+      "bounds_min": [
+        -9.193,
+        0.0,
+        -6.631
+      ],
+      "bounds_max": [
+        9.193,
+        50.0,
+        9.588
+      ],
+      "extents": [
+        18.386,
+        50.0,
+        16.219
+      ],
+      "file": "output/demo_loose/preview_teeth8_pitch5_tube16_not_for_printing.stl"
+    }
+  ]
+}
